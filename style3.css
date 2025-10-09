@@ -1,0 +1,121 @@
+body {
+    background-image: url("fond2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ .navbar {
+    background: #39281f;
+    padding: 10px 0;
+    box-shadow: 0 2px 8px rgba(60,40,10,0.10);
+}
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+.navbar-logo img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu a {
+    color: #ffbc00;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-size: 1.05rem;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+.navbar-menu a.active,
+.navbar-menu a:hover {
+    background: #ffbc00;
+    color: #39281f;
+}
+.btn-login {
+    background: #34c759;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+    font-size: 1rem;
+}
+.btn-login:hover {
+    background: #229d3d;
+} 
+.liste-voitures {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.liste-voitures h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    color: #39281f;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.voitures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 32px;
+}
+
+.voiture-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(30,30,80,0.08);
+    padding: 22px 18px 18px 18px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.voiture-card:hover {
+    transform: translateY(-7px) scale(1.04);
+    box-shadow: 0 8px 28px rgba(30,30,80,0.14);
+}
+
+.voiture-card img {
+    width: 100%;
+    max-width: 210px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.voiture-card h3 {
+    font-size: 1.18rem;
+    margin-bottom: 8px;
+    color: #ffbc00;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.voiture-card p {
+    font-size: 1rem;
+    color: #39281f;
+    opacity: 0.85;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .liste-voitures {
+        padding: 0 10px;
+    }
+    .voitures-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

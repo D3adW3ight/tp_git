@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Car shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="syles.css">
+</head>
+<body style="background-image: url('pexels-dnrgs-29065862.jpg');">
+    <!-- Votre contenu ici -->
+
+  <!-- NAVBAR -->
+<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #39281f;">
+        <div class="container">
+            <a class="navbar-logo" href="index.html"><img src="logo.jpg"  height="40" alt="Logo" ></a>
+             <ul class="navbar-menu"></ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link text-warning" href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li class="nav-item active"><a class="nav-link text-warning" href="informations.html"><i class="fas fa-info"></i> Identification</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="voiture.html"><i class="fas fa-home"></i> Voiture</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="contact.html"><i class="fas fa-address-card"></i> Contact</a></li>
+                </ul>
+            </div>
+            <span class="navbar-text">
+                <button type="button" class="btn btn-success"><i class="fa fa-sign-in"></i> Login</button>
+            </span>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1>Car shop</h1>
+        <p>Bienvenue sur notre site de Car Shop !<br>
+        Ici nous vendons tous types de véhicules.</p>
+    </div> 
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div class="container mt-3">
+    <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mainCarousel" data-slide-to="1"></li>
+        <li data-target="#mainCarousel" data-slide-to="2"></li>
+        <li data-target="#mainCarousel" data-slide-to="3"></li>
+        <li data-target="#mainCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Mazda-MX-5-NA-60.jpg" class="d-block w-100" alt="Pub Burger">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="font-weight-bold"> Offre speciale </h2>
+            <p>Mazda mx-5</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="IMG_2992.jpg" class="d-block w-100" alt="Pub Burger 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="font-weight-bold">Dernière chance</h2>
+            <p>Ferrari F40</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="ford1966.jpg" class="d-block w-100" alt="Pub Burger 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="font-weight-bold">Une Classique</h2>
+            <p>Ford mustang 1966 </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img src="twingo.jpg" class="d-block w-100" alt="Pub Burger 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font-weight-bold">Petit citadine </h2>
+              <p>Renault Twingo </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="hotdog.jpg" class="d-block w-100" alt="Pub Burger 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="font-weight-bold">Food truck</h2>
+              <p>Le hot dog truck</p>
+            </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+      </a>
+      <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- BURGER CARDS -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="MX5_1568_5_2.jpg" class="card-img-top" alt="Burger 1">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Mazda mx-5</h5>
+            <p class="card-text">La plus populaire à partir de 15000$.</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i>Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="ferrai.jpg" class="card-img-top" alt="Burger 2">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Ferrari F40</h5>
+            <p class="card-text">Old money à partir de seulement 3milion$.</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i> Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="1966.jpg" class="card-img-top" alt="Burger 3">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Ford Mustang 1966</h5>
+            <p class="card-text">Un classique à partir de 48000$.</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i>Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="porsche.jpg" class="card-img-top" alt="Burger 3">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Porsche 911</h5>
+            <p class="card-text">Puissance et élégance pour seulement 193000$</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i>Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="alpine.jpg" class="card-img-top" alt="Burger 3">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Alpine A110</h5>
+            <p class="card-text">Légère et puissante pour 63000$.</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i>Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="bentley.jpg" class="card-img-top" alt="Burger 3">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Bentley Continantal</h5>
+            <p class="card-text">Elegance et style pour seulement 302000$</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i> Voir plus</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card bg-dark text-white h-100">
+          <img src="963.jpg" class="card-img-top" alt="Burger 3">
+          <div class="card-body">
+            <h5 class="card-title text-warning font-weight-bold">Porsche 963 Le mans</h5>
+            <p class="card-text">Pour les passionné a partir de 2.9millions$</p>
+            <a href="#" class="btn btn-success"><i class="fas fa-arrow-right"></i>Voir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
